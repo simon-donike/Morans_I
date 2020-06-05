@@ -21,9 +21,10 @@ import matplotlib.pyplot as Mplt
 # then proceeded to Moran I value without converting it into shapefile.
 # Because a shape file has a lot of info including tags lat, long. population and much more meant for geography
 
-rasterImage = imread(r'data/ImageMtrx_random.tiff')
+rasterImage = imread(r'data/ImageMtrx.tiff')
 
 def rgb2gray(rgb):
+    import numpy as np
     return np.dot(rgb[...,:3], [0.2989, 0.5870, 0.1140])
 
 rasterImageGrey = rgb2gray(rasterImage)
