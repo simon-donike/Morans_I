@@ -9,7 +9,6 @@ Created on Fri Jun  5 18:32:44 2020
 import pysal
 from skimage.io import imread
 from libpysal.weights import lat2W
-import numpy as np
 import pandas as pd
 from esda.moran import Moran
 from skimage.color import rgb2gray
@@ -21,15 +20,19 @@ import matplotlib.pyplot as Mplt
 # then proceeded to Moran I value without converting it into shapefile.
 # Because a shape file has a lot of info including tags lat, long. population and much more meant for geography
 
-rasterImage = imread(r'data/ImageMtrx.tiff')
+rasterImage = imread(r'images/sbg.tif')
 
 def rgb2gray(rgb):
     import numpy as np
     return np.dot(rgb[...,:3], [0.2989, 0.5870, 0.1140])
 
+
+
+#RasterIamgeGrey is data as pd. dataframe from here on
 rasterImageGrey = rgb2gray(rasterImage)
+
 col,row = rasterImageGrey.shape[:2]
-df = pd.DataFrame(rasterImageGrey.flatten())
+df = pd.DataFrame(rasterImageGrey.flatten()) #What does this do?
 WeightMatrix= lat2W(row,col)
 WeightMatrix = lat2W(rasterImageGrey.shape[0],rasterImageGrey.shape[1])
 MoranM= Moran(rasterImageGrey,WeightMatrix)
