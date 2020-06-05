@@ -1,0 +1,15 @@
+  
+name: morans_I
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pysal
+  - libpysal
+  - matplotlib
+  - geopandas
+  - splot
+  - esda
+  - scikit-image
+  - pandana
+  - urbanaccess
