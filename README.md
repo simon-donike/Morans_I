@@ -2,6 +2,7 @@
 Using Python to calculate Moran's I from a TIFF-Image
 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/simon-donike/MoransI_tiff/master)
 
 
 Moran's I Requirements:
