@@ -4,7 +4,7 @@ Using Python to calculate Moran's I from TIFF-Images and visualizing the meaning
 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/simon-donike/Morans_I/master)  
-[![nbviewer](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fjupyter%2Fnbviewer%2Fissues%2F714&psig=AOvVaw0UpwsrwSI22VWfHbXoAFb5&ust=1591560398633000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDzz9T-7ekCFQAAAAAdAAAAABAD)](https://nbviewer.jupyter.org/github/simon-donike/Morans_I/blob/master/Morans_I.ipynb) 
+[![nbviewer](https://camo.githubusercontent.com/bfeb5472ee3df9b7c63ea3b260dc0c679be90b97/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656e6465722d6e627669657765722d6f72616e67652e7376673f636f6c6f72423d66333736323626636f6c6f72413d346434643464)](https://nbviewer.jupyter.org/github/simon-donike/Morans_I/blob/master/Morans_I.ipynb) 
  
 
 
