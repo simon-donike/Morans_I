@@ -1,5 +1,5 @@
   
-name: morans_I
+name: geo_env
 channels:
   - conda-forge
 dependencies:
@@ -11,5 +11,6 @@ dependencies:
   - splot
   - esda
   - scikit-image
+  - scikit-learn
   - pandana
   - urbanaccess
