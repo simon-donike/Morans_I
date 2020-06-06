@@ -1,11 +1,12 @@
-# MoransI_tiff
-Using Python to calculate Moran's I from a TIFF-Image
+# Moran's I calculation and visualization
+
+Using Python to calculate Moran's I from TIFF-Images and visualizing the meaning of spatial autocorrelation.
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/simon-donike/MoransI_tiff/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/simon-donike/Morans_I/master)
 
 
-Moran's I Requirements:
+**Moran's I Requirements:**
 
 
 For the installation of the libraries and to avoid dependency issues, it is recommended that you:
@@ -27,4 +28,5 @@ Libraries used:
 
 It is recommended to use Anaconda (+ conda-forge) for the installation of these libraries.
 Alternatively, "pip install" can be used. It is not recommended to mix lib installations from
-different channels.
+different channels.  
+For more information, read the notes at the beginning of the Jupyter Notebook
